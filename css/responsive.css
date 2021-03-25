@@ -1,0 +1,104 @@
+/* Telefones em paisagem e abaixo */
+
+@media (max-width: 320px) {}
+
+@media (max-width: 480px) {
+    .featurettes {
+        height: auto !important;
+        min-height: 100px !important;
+    }
+}
+
+
+/* Telefones em paisagem a tablet em retrato */
+
+@media (max-width: 767px) {
+    .background-wrapper {
+        display: none;
+    }
+    .main-container {
+        left: 0 !important;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: none;
+        width: 100% !important;
+        padding: 20px;
+    }
+    .desktop-dropdown {
+        display: none;
+    }
+}
+
+
+/* Tablet em retrato a paisagem e desktop */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .navbar-mobile {
+        display: none;
+    }
+    .background-wrapper {
+        display: none;
+    }
+    .main-container {
+        left: 0% !important;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100% !important;
+    }
+    .featurettes {
+        height: auto !important;
+        min-height: 100px !important;
+    }
+}
+
+@media (min-width: 979px) and (max-width: 1200px) {
+    .background-wrapper {
+        display: none;
+    }
+    .main-container {
+        left: 0 !important;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: none;
+        width: 100% !important;
+        padding: 0px;
+        height: auto !important;
+    }
+    .navbar-mobile {
+        display: none;
+    }
+}
+
+
+/* Desktop grande */
+
+@media (min-width: 1200px) {
+    .navbar-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 2570px) {
+    .background-wrapper {
+        height: auto;
+        width: 100%;
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        -webkit-transition: 0.5s ease-in;
+        -moz-transition: 0.5s ease-in;
+        -o-transition: 0.5s ease-in;
+        transition: 0.5s ease-in;
+    }
+    .background-fixed {
+        min-height: 2000px !important;
+        height: auto;
+        width: 100%;
+        background-size: 100% !important;
+        background-repeat: no-repeat;
+        -webkit-transition: 0.5s ease-in;
+        -moz-transition: 0.5s ease-in;
+        -o-transition: 0.5s ease-in;
+        transition: 0.5s ease-in;
+        background-image: url("../img/anchor/anchor1.jpg") !important;
+    }
+}
